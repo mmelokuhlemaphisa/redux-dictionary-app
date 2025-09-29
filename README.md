@@ -1,7 +1,4 @@
-Got it 👍 — you’re right, my previous conversion cut off after step 1.
-Here’s the **full Markdown version** with everything included, start to finish:
 
-````markdown
 # 📖 Redux Dictionary App
 
 A simple and clean dictionary web application built to demonstrate the core principles of modern Redux with Redux Toolkit. Users can search for a word and view its definitions, parts of speech, and phonetic spelling, fetched from a public API.  
@@ -41,7 +38,7 @@ To understand *why* Redux is so useful and how its core parts (Store, Actions, R
 
 [🔗 Read the Redux Fairytale Analogy Here](https://docs.google.com/document/d/1xhsnvB-m90zo7C8lxv8kCu5BPWwigN5Ehqg7oruufOw/edit?usp=drive_link)  
 
----
+
 
 ## 🚀 Getting Started
 Follow these instructions to get a local copy of the project up and running.  
