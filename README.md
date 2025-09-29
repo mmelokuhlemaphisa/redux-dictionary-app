@@ -38,7 +38,7 @@ To understand *why* Redux is so useful and how its core parts (Store, Actions, R
 
 [🔗 Read the Redux Fairytale Analogy Here](https://docs.google.com/document/d/1xhsnvB-m90zo7C8lxv8kCu5BPWwigN5Ehqg7oruufOw/edit?usp=drive_link)  
 
-
+---
 
 ## 🚀 Getting Started
 Follow these instructions to get a local copy of the project up and running.  
@@ -51,7 +51,7 @@ Follow these instructions to get a local copy of the project up and running.
 1. **Clone the repository:**  
    ```bash
    git clone https://github.com/your-username/redux-dictionary-app.git
-````
+   ```
 
 2. **Navigate to the project directory:**
 
@@ -73,6 +73,6 @@ Follow these instructions to get a local copy of the project up and running.
 
    The application should now be running on [http://localhost:5173](http://localhost:5173).
 
-```
+
 
 
