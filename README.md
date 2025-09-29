@@ -50,7 +50,7 @@ Follow these instructions to get a local copy of the project up and running.
 ### Installation & Setup
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/your-username/redux-dictionary-app.git
+   git clone https://github.com/dlozilab/redux-dictionary-app.git
    ```
 
 2. **Navigate to the project directory:**
