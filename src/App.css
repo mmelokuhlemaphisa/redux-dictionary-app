@@ -12,7 +12,15 @@ main {
 }
 
 #root {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+}
+
+.head{
+  text-align: center;
+}
+
+.search{
+width: 30%;
 }

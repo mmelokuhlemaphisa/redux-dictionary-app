@@ -1,8 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
+import dictionaryReducer  from "./src/features/dictionarySlice";
+
 
 export const store = configureStore({
   reducer: {
+    
     // Reducers will be added here
+    dictionary: dictionaryReducer,
   },
 });
 
