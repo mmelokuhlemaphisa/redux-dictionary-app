@@ -21,6 +21,93 @@ main {
   text-align: center;
 }
 
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+  gap: 0.5rem;
+  border-radius: 1px;
+}
+
 .search{
+padding: 15px;
 width: 30%;
+align-items: center;
+
+}
+
+.display{
+padding: 20px;
+margin-top: 5%;
+
+
+}
+
+.btn{
+  padding: 15px;
+  width: 5%;
+  background-color:#007bff ;
+  
+  
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 20px;
+}
+
+
+.word-card {
+  background: lightblue;
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.word-card:hover {
+  transform: translateY(-3px);
+}
+
+.word-title {
+  font-size: xx-large;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+
+.meaning-card {
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-left: 4px solid #007bff;
+  background: #f9fafc;
+  border-radius: 8px;
+}
+
+
+.definition-card {
+  margin: 10px 0;
+  padding: 10px 12px;
+  background: #fdfdfd;
+  border: 1px solid #e3e6ea;
+  border-radius: 8px;
+}
+
+.definition-card p {
+  margin: 6px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.part-of-speech {
+  font-size: 1.1rem;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.example {
+  color: #555;
+  font-style: italic;
 }

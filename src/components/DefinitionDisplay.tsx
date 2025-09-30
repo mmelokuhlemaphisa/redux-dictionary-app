@@ -17,20 +17,20 @@ export const DefinitionDisplay: React.FC = () => {
   return (
     <div className="display">
       {entries.map((entry, index) => (
-        <article key={index}>
-          <h2>
+        <article className="word-card" key={index}>
+          <h2 className="word-title">
             {entry.word} <small>{entry.phonetic}</small>
           </h2>
           {entry.meanings.map((meaning, mIndex) => (
-            <div key={mIndex}>
-              <h3>{meaning.partOfSpeech}</h3>
+            <div className="meaning-card" key={mIndex}>
+              <h3 className="part-of-speech">{meaning.partOfSpeech}</h3>
               {meaning.definitions.map((def, dIndex) => (
-                <div key={dIndex}>
+                <div className="definition-card" key={dIndex}>
                   <p>
                     <strong>Definition:</strong> {def.definition}
                   </p>
                   {def.example && (
-                    <p>
+                    <p className="example">
                       <em>Example: {def.example}</em>
                     </p>
                   )}
